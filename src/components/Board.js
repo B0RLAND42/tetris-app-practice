@@ -1,7 +1,8 @@
+import "./Board.css";
+
 import BoardCell from "../components/BoardCell";
 
 const Board = ({ board }) => {
-  console.log("Board", board);
 
   const boardStyles = {
     gridTemplateRows: `repeat(${board.size.rows}, 1fr)`,
@@ -9,7 +10,7 @@ const Board = ({ board }) => {
   };
 
   return (
-    <div className="Board" style={boardStyles}>
+    <div className="board" style={boardStyles}>
       {board.rows.map((row, y) =>
         row.map((cell, x) => (
           <BoardCell key={x * board.size.columns + x} cell={cell} />

@@ -9,7 +9,6 @@ const Game = ({ rows, columns }) => {
 
   const start = () => {
     resetGameOver();
-    console.log(`Start gameOver is ${gameOver}`);
   };
 
   return (

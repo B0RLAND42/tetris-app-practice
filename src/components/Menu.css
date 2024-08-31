@@ -2,25 +2,33 @@
 
 .menu {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 50vh;
+  min-height: 90vh;
   z-index: 100;
+
+  h1 {
+    font-size: 8rem;
+    text-shadow: 2px 2px 12px black;
+  }
 }
 
 .button {
   font-family: 'Bebas Neue', sans-serif;
-  padding: 30px 60px;
+  padding: 10px 60px;
   font-size: 2em;
   color: rgb(137, 16, 16);
   background: rgb(55, 5, 5);
   border-radius: 60px;
-  border: 4px solid rgba(36, 4, 4, 0.557);
+  border: 4px solid rgba(26, 4, 4, 0.557);
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 60px;
   text-shadow: 2px 2px 4px black;
   cursor: pointer;
 
   &:hover {
-    background: rgb(56, 12, 12);
+    background: rgb(66, 12, 12);
+    color: rgba(26, 4, 4);
+    text-shadow: none;
   }
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,7 @@
 }
 
 .App {
-  font-family: sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   text-align: center;
   color: #FFF;
   background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(121,9,9,1) 50%, rgb(0, 0, 0) 100%);
